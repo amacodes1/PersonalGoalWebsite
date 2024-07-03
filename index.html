@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home" data-testid="homeLink">Home</a></li>
+          <li><a href="#goals" data-testid="goalsLink">Goals</a></li>
+          <li><a href="#info" data-testid="infoLink">Info</a></li>
+          <li><a href="#links" data-testid="linksLink">Links</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero" id="home">
+      <img
+        src="path/to/your/profile/picture.jpg"
+        alt="Slack Profile Picture"
+        data-testid="slackProfilePicture"
+      />
+
+      <h2 data-testid="MercyEzihe">Hi I'm Mercy Ezihe</h2>
+      <h3>Welcome to My Portfolio</h3>
+    </section>
+    <main>
+      <section class="goals" id="goals">
+        <h2>My Tech Goals for the Next 2 Years</h2>
+        <p>
+          <strong>Goal 1:</strong><br /><br />
+          <strong>Goal 2:</strong><br /><br />
+          <strong>Goal 3:</strong>
+        </p>
+      </section>
+      <section class="info" id="info">
+        <h3>Current Information</h3>
+        <p>
+          <strong>Current Time (UTC):</strong>
+          <span id="currentTimeUTC" data-testid="currentTimeUTC"></span>
+        </p>
+        <p>
+          <strong>Current Day:</strong>
+          <span id="currentDay" data-testid="currentDay"></span>
+        </p>
+        <p>
+          <strong>My Email:</strong>
+          <span data-testid="mercyezihe2@gmail.com">mercyezihe2@gmail.com</span>
+        </p>
+      </section>
+      <section class="links" id="links">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>
+            <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+          </li>
+          <li>
+            <a href="https://keyword.dog" data-testid="keywordLink"
+              >Keyword Dog</a
+            >
+          </li>
+          <li>
+            <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+              >Scrape Any Web</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Created by Mercy Ezihe 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
