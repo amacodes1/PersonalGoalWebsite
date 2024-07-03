@@ -2,11 +2,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const hamburger = document.getElementById("hamburger");
   const navLinks = document.getElementById("nav-links");
 
+  // Hamburger menu
   hamburger.addEventListener("click", function () {
     navLinks.classList.toggle("show");
   });
 
-  // Display current time in UTC
+  // Display the current time in UTC
   const currentTimeElement = document.getElementById("currentTimeUTC");
   const currentDayElement = document.getElementById("currentDay");
 
