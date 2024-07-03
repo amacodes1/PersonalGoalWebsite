@@ -9,22 +9,29 @@
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="#home" data-testid="homeLink">Home</a></li>
-          <li><a href="#goals" data-testid="goalsLink">Goals</a></li>
-          <li><a href="#info" data-testid="infoLink">Info</a></li>
-          <li><a href="#links" data-testid="linksLink">Links</a></li>
-        </ul>
+        <div class="nav-container">
+          <div class="hamburger" id="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#home" data-testid="homeLink">Home</a></li>
+            <li><a href="#goals" data-testid="goalsLink">Goals</a></li>
+            <li><a href="#info" data-testid="infoLink">Info</a></li>
+            <li><a href="#links" data-testid="linksLink">Links</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <section class="hero" id="home">
       <img
-        src="path/to/your/profile/picture.jpg"
+        src="images/hero-pic.jpg"
         alt="Slack Profile Picture"
         data-testid="slackProfilePicture"
       />
 
-      <h2 data-testid="MercyEzihe">Hi I'm Mercy Ezihe</h2>
+      <h2 data-testid="slackDisplayName">Mercy Ezihe</h2>
       <h3>Welcome to My Portfolio</h3>
     </section>
     <main>
@@ -48,7 +55,7 @@
         </p>
         <p>
           <strong>My Email:</strong>
-          <span data-testid="mercyezihe2@gmail.com">mercyezihe2@gmail.com</span>
+          <span data-testid="slackEmail">mercyezihe2@gmail.com</span>
         </p>
       </section>
       <section class="links" id="links">
