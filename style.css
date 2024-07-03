@@ -7,6 +7,7 @@ body {
   min-height: 100vh;
 }
 
+/* Header and navbar section */
 header {
   background-color: #290267;
   color: #fff;
@@ -58,6 +59,7 @@ nav ul li a:hover {
   margin: 4px 0;
 }
 
+/* Hero section */
 .hero {
   background-color: #7383fc;
   text-align: center;
@@ -74,6 +76,7 @@ nav ul li a:hover {
   color: #520606;
 }
 
+/* Body section */
 main {
   flex: 1;
   padding: 20px;
@@ -113,6 +116,7 @@ ul li a:hover {
   text-decoration: underline;
 }
 
+/* Footer */
 footer {
   background-color: #290267;
   color: #fff;
@@ -120,6 +124,7 @@ footer {
   padding: 10px 0;
 }
 
+/* Responsive section */
 @media (max-width: 768px) {
   .nav-container {
     flex-direction: column;
